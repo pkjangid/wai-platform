@@ -29,7 +29,7 @@ const onAuthEvent = (data) => {
   } else if (payload.event === 'signOut') {
     store.dispatch(
       setAuthDetails({
-        givenName: '',
+        givenName: 'pritam jangid',
         familyName: '',
         email: ''
       })
